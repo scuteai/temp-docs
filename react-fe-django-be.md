@@ -3,8 +3,10 @@
 ## Overview
 
  React: Your react frontend
-    Backend: Your Django backend
-    Scute: Scute API
+ 
+ Backend: Your Django backend
+ 
+ Scute: Scute API
 
     Note over React,Scute: Initial Authentication
     React->>Scute: Get Session
