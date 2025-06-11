@@ -1,10 +1,8 @@
 # React + Django Integration with Scute
 
-## Architecture Overview
+## Overview
 
-```mermaid
-sequenceDiagram
-    React: Your react frontend
+ React: Your react frontend
     Backend: Your Django backend
     Scute: Scute API
 
@@ -23,7 +21,6 @@ sequenceDiagram
     Backend->>Scute: Use refresh token to get new tokens
     Scute-->>Backend: New tokens
     Backend-->>React: New access token + Update cookies
-```
 
 ## Security Warning
 
